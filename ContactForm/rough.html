@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {    
+      --color-lighterGreen:hsl(148, 38%, 91%);
+      --color-mediumGreen:hsl(169, 82%, 27%);
+      --color-Red:hsl(0, 66%, 54%);
+      --color-White:hsl(0, 0%, 100%);
+      --color-mediumGrey:hsl(186, 15%, 59%);
+      --color-darkerGrey:hsl(187, 24%, 22%);
+      }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Contact Us</h1>
+
+
+        <div>
+        <label for="firstName">First Name *</label>
+        <input id="firstName" type="text">
+        </div>
+        
+        <div>
+        <label for="lastName">Last Name *</label>
+        <input id="lastName" type="text">
+        </div>
+         
+         <label for="email">Email Address *</label>
+        <input id="email" type="email">
+
+
+        <label for="query">Query Type *</label>
+
+    
+        <div class="container query">
+        <div>
+            <input id="enquiry" type="radio" name="query">
+            <label for="enquiry">General Enquiry</label>
+        </div>
+
+
+        <div>
+            <input id="support" type="radio" name="query">
+            <label for="support">Support Request</label>
+        </div>
+        </div>
+
+
+        <label for="message">Message *</label>
+        <textarea name="message" id="message"></textarea>
+
+
+        <div>
+            <input id="consent" type="checkbox">
+            <label for="consent">I consent to being contacted by the team *</label>
+        </div>
+
+
+        <button type="submit">Submit</button>
+
+
+
+        <label for="firstName">
+            First Name *
+        </label>
+        <input id="firstName" type="text">
+
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text">
+
+        <label for="lastName">Last Name</label>
+        <input id="lastName" type="text">
+
+        <label for="occupation">Occupation</label>
+        <input id="occupation" type="text"> <br>
+
+        <label for="do you want to work with us">Do you want to work with us?</label>
+        <input id="do you want to work with us" type="text">
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
